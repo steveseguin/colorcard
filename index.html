@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Checker Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #000;
+        }
+
+        .color-checker {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 2px;
+            width: 100vmin;
+            height: 100vmin;
+            max-width: 100vw;
+            max-height: 100vh;
+            padding: 2px;
+            background: #000;
+        }
+
+        .color-square {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        /* Row 1: Natural colors */
+        .color-1 { background-color: #735244; }
+        .color-2 { background-color: #c29682; }
+        .color-3 { background-color: #627a9d; }
+        .color-4 { background-color: #576c43; }
+        .color-5 { background-color: #8580b1; }
+        .color-6 { background-color: #67bdaa; }
+
+        /* Row 2: Miscellaneous colors */
+        .color-7 { background-color: #d67e2c; }
+        .color-8 { background-color: #505ba6; }
+        .color-9 { background-color: #c15a63; }
+        .color-10 { background-color: #5e3c6c; }
+        .color-11 { background-color: #9dbc40; }
+        .color-12 { background-color: #e0a32e; }
+
+        /* Row 3: Primary and secondary colors */
+        .color-13 { background-color: #383d96; }
+        .color-14 { background-color: #469449; }
+        .color-15 { background-color: #af363c; }
+        .color-16 { background-color: #e7c71f; }
+        .color-17 { background-color: #bb5695; }
+        .color-18 { background-color: #0885a1; }
+
+        /* Row 4: Grayscale colors */
+        .color-19 { background-color: #f3f3f2; }
+        .color-20 { background-color: #c8c8c8; }
+        .color-21 { background-color: #a0a0a0; }
+        .color-22 { background-color: #7a7a7a; }
+        .color-23 { background-color: #555555; }
+        .color-24 { background-color: #343434; }
+    </style>
+</head>
+<body>
+    <div class="color-checker">
+        <div class="color-square color-1"></div>
+        <div class="color-square color-2"></div>
+        <div class="color-square color-3"></div>
+        <div class="color-square color-4"></div>
+        <div class="color-square color-5"></div>
+        <div class="color-square color-6"></div>
+        <div class="color-square color-7"></div>
+        <div class="color-square color-8"></div>
+        <div class="color-square color-9"></div>
+        <div class="color-square color-10"></div>
+        <div class="color-square color-11"></div>
+        <div class="color-square color-12"></div>
+        <div class="color-square color-13"></div>
+        <div class="color-square color-14"></div>
+        <div class="color-square color-15"></div>
+        <div class="color-square color-16"></div>
+        <div class="color-square color-17"></div>
+        <div class="color-square color-18"></div>
+        <div class="color-square color-19"></div>
+        <div class="color-square color-20"></div>
+        <div class="color-square color-21"></div>
+        <div class="color-square color-22"></div>
+        <div class="color-square color-23"></div>
+        <div class="color-square color-24"></div>
+    </div>
+</body>
+</html>
